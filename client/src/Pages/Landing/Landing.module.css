@@ -1,0 +1,27 @@
+.landing {
+  display: flex;
+  align-items: end;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url("../../Assets/landingbg2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  justify-content: center;
+  overflow: hidden;
+  max-height: 100vh;
+}
+
+.imagen {
+  height: 200px;
+}
+.boton {
+  background-color: transparent;
+  border-color: transparent;
+}
+.text {
+  color: rgba(158, 124, 50, 0.191);
+}
