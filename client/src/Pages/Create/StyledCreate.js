@@ -44,7 +44,7 @@ export const Input = styled.input`
   margin-top: 20px;
   & {
     border: none;
-    border-bottom: 1px solid yellow;
+    border-bottom: 1px solid white;
   }
 `;
 

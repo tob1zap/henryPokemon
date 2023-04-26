@@ -27,8 +27,14 @@ function FilterType() {
   const handleTypes = (type) => {
     if (!type1) {
       setType1(type);
+    } else if (type1 === type) {
+      setType1("");
     } else if (!type2) {
       setType2(type);
+    } else if (type2 === type) {
+      setType2("");
+    } else if (!type1 && !type2) {
+      dispatch(getPokemons());
     } else {
       setType1(type);
       setType2(type2);

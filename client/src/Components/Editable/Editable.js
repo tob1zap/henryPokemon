@@ -43,10 +43,10 @@ const Editable = ({ pokemon1, id }) => {
       axios
         .put(`http://localhost:3001/pokemons/${id}`, newPokemon)
         .then((response) => {
-          alert("the pokewachito was correctyle modified");
+          alert("your pokemon was modified successfully");
         })
         .catch((error) => {
-          alert("pokewachito wasn't modified");
+          alert("your pokemon wasn't modified");
         });
     }
   };
@@ -54,7 +54,7 @@ const Editable = ({ pokemon1, id }) => {
   return (
     <Form onSubmit={handleSubmit}>
       <div>
-        <Label>name</Label>
+        <Label>Name</Label>
         <Input
           type="text"
           value={newPokemon.name}
@@ -63,7 +63,7 @@ const Editable = ({ pokemon1, id }) => {
         />
       </div>
       <div>
-        <Label>hp</Label>
+        <Label>HP</Label>
         <Input
           type="text"
           value={newPokemon.hp}
@@ -72,7 +72,7 @@ const Editable = ({ pokemon1, id }) => {
         />
       </div>
       <div>
-        <Label>attack</Label>
+        <Label>Attack</Label>
         <Input
           type="text"
           value={newPokemon.attack}
@@ -81,7 +81,7 @@ const Editable = ({ pokemon1, id }) => {
         />
       </div>
       <div>
-        <Label>defense</Label>
+        <Label>Defense</Label>
         <Input
           type="text"
           value={newPokemon.defense}
@@ -90,7 +90,7 @@ const Editable = ({ pokemon1, id }) => {
         />
       </div>
       <div>
-        <Label>weight</Label>
+        <Label>Weight</Label>
         <Input
           type="text"
           value={newPokemon.weight}
@@ -99,7 +99,7 @@ const Editable = ({ pokemon1, id }) => {
         />
       </div>
       <div>
-        <Label>height</Label>
+        <Label>Height</Label>
         <Input
           type="text"
           value={newPokemon.height}

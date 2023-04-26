@@ -20,6 +20,8 @@ export const DivName = styled.div`
 `;
 
 export const Pname = styled.p`
+  font-family: "Press Start 2P";
+  font-size: xx-small;
   padding-right: 12px;
   padding-left: 12px;
   background-color: #cccccc;
@@ -35,10 +37,6 @@ export const Ptype = styled.div`
   border: none;
   height: 30px;
   width: 30px;
-  border-radius: 50px;
-  padding-right: 4px;
-  padding-left: 4px;
-  border-radius: 50px;
   position: absolute;
   display: inline;
   right: ${({ name }) => (name ? "40px" : "10px")};
@@ -50,7 +48,6 @@ export const Pattack = styled.p`
   padding-left: 12px;
   background-color: #cccccc;
   border-radius: 00px 50px 0px 50px;
-
   position: absolute;
   display: inline;
   left: 3px;

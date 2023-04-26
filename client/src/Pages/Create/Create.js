@@ -73,7 +73,7 @@ export default function Create() {
       <Div>
         <Container>
           <div>
-            <Label>name</Label>
+            <Label>Name </Label>
             <Input
               type="text"
               value={create.name}
@@ -82,7 +82,7 @@ export default function Create() {
             />
           </div>
           <div>
-            <Label>hp</Label>
+            <Label>HP </Label>
             <Input
               type="text"
               value={create.hp}
@@ -91,7 +91,7 @@ export default function Create() {
             />
           </div>
           <div>
-            <Label>attack</Label>
+            <Label>Attack </Label>
             <Input
               type="text"
               value={create.attack}
@@ -100,7 +100,7 @@ export default function Create() {
             />
           </div>
           <div>
-            <Label>defense</Label>
+            <Label>Defense </Label>
             <Input
               type="text"
               value={create.defense}
@@ -109,7 +109,7 @@ export default function Create() {
             />
           </div>
           <div>
-            <Label>weight</Label>
+            <Label>Weight </Label>
             <Input
               type="text"
               value={create.weight}
@@ -118,7 +118,7 @@ export default function Create() {
             />
           </div>
           <div>
-            <Label>height</Label>
+            <Label>Height </Label>
             <Input
               type="text"
               value={create.height}
@@ -128,7 +128,7 @@ export default function Create() {
           </div>
           <div>
             <Select onChange={changeHandler} name="type">
-              <option hidden>select type</option>
+              <option hidden>Select type</option>
               {types &&
                 types.length > 0 &&
                 types.map((t, index) => (
@@ -138,7 +138,7 @@ export default function Create() {
                 ))}
             </Select>
           </div>
-          ;<Button type="submit">submit</Button>
+          ;<Button type="submit">Submit</Button>
         </Container>
         <Container2>
           <IMG src={img} />

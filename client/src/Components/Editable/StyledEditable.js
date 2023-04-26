@@ -16,14 +16,14 @@ export const Form = styled.form`
 `;
 
 export const But = styled.button`
-  background-color: yellow;
+  background-color: white;
   padding: 15px;
   margin-top: 20px;
   border-radius: 50px;
   border: none;
   box-shadow: 5px 5px 2px #252525;
   text-shadow: 4px 4px 10px #252525;
-  font-family: "8bit";
+  font-family: "Press Start 2P";
   font-size: smaller;
   color: red;
   position: absolute;
@@ -39,7 +39,7 @@ export const But = styled.button`
 `;
 
 export const Sel = styled.select`
-  background-color: yellow;
+  background-color: white;
   border-radius: 50px;
   color: red;
   margin-top: 20px;
@@ -47,7 +47,7 @@ export const Sel = styled.select`
   height: 40px;
   text-shadow: 4px 4px 10px #252525;
   text-align: center;
-  font-family: "8bit";
+  font-family: "Press Start 2P";
   box-shadow: 5px 5px 2px #252525;
   position: absolute;
   left: 20px;
